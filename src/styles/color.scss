@@ -1,0 +1,45 @@
+// 默认背景色为白色
+
+$safe-gray-color:#808080;
+
+// 系统背景色
+$color-system-bg-primary: var(--color-system-bg-primary, #FFFFFF);
+$color-system-bg-secondary: var(--color-system-bg-secondary, #F8F8F8);
+$color-system-bg-tertiary: var(--color-system-bg-tertiary, #121212);
+
+// 窗口背景色
+$color-label-primary: var(--color-label-primary, #525159);
+
+// 文本背景色
+$color-text-primary: var(--color-text-primary,  hsla(0, 0%, 7%, 1));
+$color-text-secondary: var(--color-text-secondary, hsla(0, 0%, 7%, 0.87));
+$color-text-tertiary: var(--color-text-tertiary, hsla(0, 0%, 7%, 0.62));
+$color-text-quaternary: var(--color-text-quaternary, hsla(0, 0%, 7%, 0.30));
+
+$color-text-highlight-primary: var(--color-text-highlight-primary,  hsla(0, 100%, 100%, 0.87));
+$color-text-highlight-secondary: var(--color-text-highlight-secondary,  hsla(0, 100%, 100%, 0.62));
+$color-text-highlight-tertiary: var(--color-text-highlight-tertiary,  hsla(0, 100%, 100%, 0.45));
+$color-text-highlight-quaternary: var(--color-text-highlight-quaternary,  hsla(0, 100%, 100%, 0.30));
+
+.dark-theme {
+  // 系统背景色
+  --color-system-bg-primary: #121212;
+  --color-system-bg-secondary: #272729;
+  --color-system-bg-tertiary: #333335;
+
+
+  // 窗口背景色
+  --color-label-primary: #555555;
+
+  // 文本背景色
+  --color-text-primary: hsla(0, 100%, 100%, 0.87);
+  --color-text-secondary: hsla(0, 100%, 100%, 0.62);
+  --color-text-tertiary: hsla(0, 100%, 100%, 0.45);
+  --color-text-quaternary: hsla(0, 100%, 100%, 0.30);
+
+  // 文本高亮的反色
+  --color-text-highlight-primary: hsla(0, 100%, 100%, 1);
+  --color-text-highlight-secondary: hsla(0, 0%, 7%, 0.62);
+  --color-text-highlight-tertiary: hsla(0, 0%, 7%, 0.87);
+  --color-text-highlight-quaternary: hsla(0, 0%, 7%, 1);
+}

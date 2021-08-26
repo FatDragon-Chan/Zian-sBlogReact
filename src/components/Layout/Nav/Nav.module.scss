@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-content: center;
+
+}
+
+.navItem {
+  padding: 8px 14px;
+  display: inline-block;
+  line-height: 1;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: background-color 400ms ease-out, color 400ms ease-out;
+  color: $color-text-secondary;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+  &:hover {
+    background-color: $color-system-bg-tertiary;
+    color: $color-text-highlight-primary;
+  }
+}

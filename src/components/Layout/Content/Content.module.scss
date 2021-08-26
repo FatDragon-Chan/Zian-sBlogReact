@@ -1,0 +1,14 @@
+.container {
+  min-height: 100vh;
+  margin: (-$setting-header-height) auto (-$setting-footer-height);
+  padding: $setting-header-height 0 $setting-footer-height ;
+  box-sizing: border-box;
+  max-width: $setting-page-width;
+
+  display: flex;
+  align-items: center;
+  h1 {
+    width: 100vw;
+    text-align: center;
+  }
+}

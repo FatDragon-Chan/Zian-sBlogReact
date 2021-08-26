@@ -1,0 +1,13 @@
+
+body {
+  margin: 0;
+  padding: 0;
+
+  #app {
+    min-height: 100vh;
+    background-color: $color-system-bg-primary;
+    transition: background-color 1s ease-out,color 1s ease-out;
+    user-select: none;
+    color: $color-text-primary;
+  }
+}

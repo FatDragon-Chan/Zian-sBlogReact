@@ -1,0 +1,49 @@
+.container {
+  background-color: $color-system-bg-secondary;
+  transition: background-color 1s ease-out;
+}
+.header {
+  margin: 0 auto;
+  max-width: $setting-page-width;
+  height: $setting-header-height;
+  line-height: $setting-header-height;
+  box-sizing: border-box;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  position: relative;
+  box-sizing: border-box;
+  font-weight: bold;
+  cursor: pointer;
+  &::before {
+    @extend .pseudoClass;
+    top: 10px;
+  }
+  &::after {
+    @extend .pseudoClass;
+    bottom: 10px;
+  }
+  &:hover {
+    &::before {
+      width: 120%;
+    }
+    &::after {
+      width: 120%;
+    }
+  }
+}
+.pseudoClass {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 1px;
+  background-color: $color-text-primary;
+  width: 0;
+  transition: width 400ms ease-out;
+}

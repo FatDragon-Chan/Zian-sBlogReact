@@ -1,0 +1,9 @@
+.container {
+  background-color: $color-system-bg-tertiary;
+  color: $color-text-highlight-primary;
+}
+.footer{
+  margin: 0 auto;
+  max-width: $setting-page-width;
+  height: $setting-footer-height;
+}
